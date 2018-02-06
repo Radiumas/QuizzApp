@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorPrimaryLight">#C8E6C9</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="colorButton">#FFEB3B</color>
+    <!-- Here are background colors defined -->
+    <color name="color_bg_question">#dfc2b8</color>
+    <color name="color_bg_extra_question">#E91E63</color>
+
+    <!-- Here are text colors defined -->
+    <color name="color_text_question">#000000</color>
+    <color name="color_text_answer">#000000</color>
+    <color name="color_button">#03A9F4</color>
+
+</resources>

@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/colorButton</item>
+        </style>
+
+    <style name="style_textView_question">
+        <item name="android:text">@string/text_question</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_question</item>
+        <item name="android:background">@color/color_bg_question</item>
+        <item name="android:textSize">@dimen/fontsize_question</item>
+        <item name="android:textColor">@color/color_text_question</item>
+    </style>
+
+    <style name="style_textView_extra_question" parent="style_textView_question">
+        <item name="android:text">@string/extra_question</item>
+        <item name="android:background">@color/color_bg_extra_question</item>
+
+    </style>
+
+    <style name="style_checkbox">
+        <item name="android:textSize">@dimen/fontsize_answer</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding_checkbox</item>
+        <item name="android:textColor">@color/color_text_answer</item>
+        </style>
+</resources>
+

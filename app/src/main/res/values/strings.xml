@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuizzApp</string>
+    <!-- Hint text for the username EditText field -->
+    <string name="name_input">Your name</string>
+    <!-- Text of the questions -->
+    <string name="text_question">Which one of these words is spelled correctly?</string>
+    <!-- Answers for the question No. 1 -->
+    <string name="correct_Q1">Business</string>
+    <string name="wrong1_Q1">Bussiness</string>
+    <string name="wrong2_Q1">Bussines</string>
+    <!-- Answers for the question No. 2 -->
+    <string name="correct_Q2">Colonel</string>
+    <string name="wrong1_Q2">Collonel</string>
+    <string name="wrong2_Q2">Colonnel</string>
+    <!-- Answers for the question No. 3 -->
+    <string name="correct_Q3">Committee</string>
+    <string name="wrong1_Q3">Comitee</string>
+    <string name="wrong2_Q3">Comitte</string>
+    <!-- Answers for the question No. 4 -->
+    <string name="correct_Q4">Rhythm</string>
+    <string name="wrong1_Q4">Rythm</string>
+    <string name="wrong2_Q4">Rhythym</string>
+    <!-- Answers for the question No. 5 -->
+    <string name="correct_Q5">Cemetery</string>
+    <string name="wrong1_Q5">Cemetry</string>
+    <string name="wrong2_Q5">Cemetary</string>
+    <!-- Answers for the question No. 6 -->
+    <string name="correct_Q6">Conscience</string>
+    <string name="wrong1_Q6">Consciouns</string>
+    <string name="wrong2_Q6">Conscence</string>
+    <!-- Answers for the question No. 7 -->
+    <string name="correct_Q7">Millennium</string>
+    <string name="wrong1_Q7">Milenium</string>
+    <string name="wrong2_Q7">Milennium</string>
+    <!-- Answers for the question No. 8 -->
+    <string name="correct_Q8">Pronunciation</string>
+    <string name="wrong1_Q8">Pronounsation</string>
+    <string name="wrong2_Q8">Pronouncation</string>
+
+    <!-- Text for type input question -->
+    <string name="type_in_question">Spell the name of the most popular programming language correctly</string>
+    <string name="type_in_question_hint">Type it in here:</string>
+    <!-- Text and answers for the EXTRA question -->
+    <string name="extra_question">Which colors the Lithuanian flag is made of?</string>
+    <string name="red">Red</string>
+    <string name="yellow">Yellow</string>
+    <string name="white">White</string>
+    <string name="green">Greenk</string>
+    <string name="black">Black</string>
+    <string name="blue">Blue</string>
+    <string name="right_extra"> By the way, it is nice that you know the flag!</string>
+    <string name="wrong_extra">Unfortunately, you should check the flag colors again.</string>
+    <!-- Evaluation messages -->
+    <string name="right_all"> you did it perfectly!</string>
+    <string name="right_not_all"> out of 9 main questions were correct. Try again?</string>
+    <!-- Text for the calculate button -->
+    <string name="done_button">Done</string>
+</resources>

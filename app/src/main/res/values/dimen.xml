@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Here are the text sizes -->
+    <dimen name="fontsize_question">20sp</dimen>
+    <dimen name="fontsize_answer">16sp</dimen>
+    <dimen name="fontsize_toast">20sp</dimen>
+
+    <!-- Here are the margins and paddings of elements -->
+    <dimen name="margin_top_image">20dp</dimen>
+    <dimen name="margin_top_question">14dp</dimen>
+    <dimen name="margin_top_done">24dp</dimen>
+    <dimen name="margin_bottom_done">16dp</dimen>
+    <dimen name="padding_checkbox">4dp</dimen>
+</resources>
