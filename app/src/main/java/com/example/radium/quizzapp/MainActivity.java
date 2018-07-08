@@ -103,8 +103,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void addForTypeIn() {
         EditText typeIn = findViewById(R.id.type_in_question);
-        String answer = typeIn.getText().toString();
-        if (answer.equals("Java") || answer.equals("java")) {
+        String answer = typeIn.getText().toString().trim();
+        if (answer.equalsIgnoreCase("Java")) {
             score++;
         }
     }
