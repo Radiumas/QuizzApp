@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Adds points for questions 1-8
-   private void addForRadio() {
-       // ---Variables for correct answer buttons
+    private void addForRadio() {
+        // ---Variables for correct answer buttons
         RadioButton buttonQ1 = findViewById(R.id.correct_Q1_button);
         RadioButton buttonQ2 = findViewById(R.id.correct_Q2_button);
         RadioButton buttonQ3 = findViewById(R.id.correct_Q3_button);
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
     private void addForTypeIn() {
         EditText typeIn = findViewById(R.id.type_in_question);
         String answer = typeIn.getText().toString();
-        if (answer.equals("Java")) {
+        if (answer.equals("Java") || answer.equals("java")) {
             score++;
         }
     }
@@ -148,10 +148,11 @@ public class MainActivity extends AppCompatActivity {
             message = name + ", " + getResources().getString(R.string.right_all)
                     + checkForExtra();
         } else {
-            message = name + ", " + score + getResources().getString(R.string.right_not_all)
-                    + checkForExtra();
+            message = name + ", " + score + " " + getResources().getString(R.string.right_not_all)
+                  + " "  + checkForExtra();
         }
     }
+
     // Calculates the score when button DONE is clicked
     public void calculateScore(View view) {
         addForRadio();

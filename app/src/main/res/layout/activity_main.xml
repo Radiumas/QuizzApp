@@ -17,8 +17,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scaleType="fitCenter"
-            android:src="@drawable/apptitle"
-            />
+            android:contentDescription="@string/cont_descr_app_title"
+            android:src="@drawable/apptitle" />
 
         <!-- View to enter a username -->
         <EditText

@@ -46,14 +46,16 @@
     <string name="red">Red</string>
     <string name="yellow">Yellow</string>
     <string name="white">White</string>
-    <string name="green">Greenk</string>
+    <string name="green">Green</string>
     <string name="black">Black</string>
     <string name="blue">Blue</string>
     <string name="right_extra"> By the way, it is nice that you know the flag!</string>
     <string name="wrong_extra">Unfortunately, you should check the flag colors again.</string>
     <!-- Evaluation messages -->
     <string name="right_all"> you did it perfectly!</string>
-    <string name="right_not_all"> out of 9 main questions were correct. Try again?</string>
+    <string name="right_not_all">out of 9 main questions were correct. Try again?</string>
     <!-- Text for the calculate button -->
     <string name="done_button">Done</string>
+    <!-- Content descriptions for ImageViews -->
+    <string name="cont_descr_app_title">App title</string>
 </resources>
