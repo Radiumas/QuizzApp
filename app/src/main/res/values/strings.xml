@@ -53,7 +53,7 @@
     <string name="wrong_extra">Unfortunately, you should check the flag colors again.</string>
     <!-- Evaluation messages -->
     <string name="right_all"> you did it perfectly!</string>
-    <string name="right_not_all">out of 9 main questions were correct. Try again?</string>
+    <string name="right_not_all">out of 10 questions were correct. Try again?</string>
     <!-- Text for the calculate button -->
     <string name="done_button">Done</string>
     <!-- Content descriptions for ImageViews -->

@@ -122,6 +122,7 @@ public class MainActivity extends AppCompatActivity {
         if ((!checkBoxBlack.isChecked()) && (!checkBoxBlue.isChecked()) && (!checkBoxWhite.isChecked()) &&
                 (checkBoxRed.isChecked()) && (checkBoxGreen.isChecked()) && (checkBoxYellow.isChecked())) {
             extra = true;
+            score++;
         }
         extraMessage = chooseExtra(extra);
         return extraMessage;
@@ -146,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
 
         if (score == 9) {
             message = name + ", " + getResources().getString(R.string.right_all)
-                    + checkForExtra();
+                  + " "  + checkForExtra();
         } else {
             message = name + ", " + score + " " + getResources().getString(R.string.right_not_all)
                   + " "  + checkForExtra();
